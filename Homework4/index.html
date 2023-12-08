@@ -10,7 +10,8 @@ $skills = [
 ];
 $work = [
    'my_work' => ['С# Developer', 'Web Developer', 'Teacher'],
-   'time' => ['Sep 2023 - ', 'Apr 2023 - June 2023', 'Sep 2012 - Dec 2018']
+   'time' => ['Sep 2023 - ', 'Apr 2023 - June 2023', 'Sep 2012 - Dec 2018'],
+   'desc' => ['Учусь программировать на C#', 'Училась веб программированию', 'Работла учителем в школе №17']
 ];
 ?>
 
@@ -99,19 +100,19 @@ $work = [
         <div class="w3-container">
           <h5 class="w3-opacity"><b><?php echo $work ['my_work'] [0]  ?></b></h5>
            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $work ['time'] [0]  ?><span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p><?php echo $work ['desc'] [0] ?>.</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b><?php echo $work ['my_work'] [1]  ?></b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $work ['time'] [1]  ?></h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p><?php echo $work ['desc'] [1] ?>.</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b><?php echo $work ['my_work'] [2]  ?></b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $work ['time'] [2]  ?></h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+          <p><?php echo $work ['desc'] [2] ?>.</p><br>
         </div>
       </div>
 
